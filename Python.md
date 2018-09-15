@@ -19,7 +19,7 @@ matplotlib
     
     fig = plt.figure(0)
     fig.clf()
-    plt.plot(data, label = "", color = 'r')
+    plt.plot(data, label = "o", color = 'r',ms=0.5)  # ms: marker size
     plt.xlabel("")
     plt.ylabel("")
     plt.title("")
