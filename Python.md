@@ -24,3 +24,7 @@ matplotlib
     plt.ylabel("")
     plt.title("")
     fig.savefig("dir/target.png")
+
+numpy
+
+    numpy.argmax(a, axis = )  # get the index of the maximum in an array
