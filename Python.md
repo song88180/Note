@@ -27,4 +27,10 @@ matplotlib
 
 numpy
 
-    numpy.argmax(a, axis = )  # get the index of the maximum in an array
+    import numpy as np
+    np.argmax(a, axis = )  # get the index of the maximum in an array
+
+pandas
+    
+    import pandas as pd
+    
