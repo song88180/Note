@@ -43,6 +43,9 @@ numpy
     import numpy.random as nrand 
     nrand.permutation(int,List,range)   # return a List.
     nrand.shuffle(List)   #change the List.
+    
+    ## return index of value
+    itemindex = numpy.where(array==item)
 
 pandas
     
