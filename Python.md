@@ -1,3 +1,8 @@
+    ##  concatenate element in the list
+    myList = ','.join(myList) 
+    # if elements are not string type
+    myList = ','.join(map(str, myList))   # separate with comma
+
 pickle
 
     import pickle
