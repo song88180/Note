@@ -29,6 +29,10 @@ numpy
 
     import numpy as np
     np.argmax(a, axis = )  # get the index of the maximum in an array
+    
+    import numpy.random as nrand 
+    nrand.permutation(int,List,range)   # return a List.
+    nrand.shuffle(List)   #change the List.
 
 pandas
     
