@@ -14,9 +14,11 @@ matplotlib
     import matplotlib as mpl
     import mpl.pyplot as plt
     
+    ## draw distribution
     plt.hist(data, bins = )
     plt.show()
     
+    ## save
     fig = plt.figure(0)
     fig.clf()
     plt.plot(data, label = "o", color = 'r',ms=0.5)  # ms: marker size
@@ -25,8 +27,13 @@ matplotlib
     plt.title("")
     fig.savefig("dir/target.png")
     
+    ## change x,y axis range.
+    axes = plt.gca()
     axes.set_xlim([xmin,xmax])
-    axes.set_ylim([ymin,ymax])
+    axes.set_ylim([None,ymax])
+    
+    x1,x2,y1,y2 = plt.axis()
+    plt.axis((x1,x2,25,250))
     
 numpy
 
