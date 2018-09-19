@@ -24,7 +24,10 @@ matplotlib
     plt.ylabel("")
     plt.title("")
     fig.savefig("dir/target.png")
-
+    
+    axes.set_xlim([xmin,xmax])
+    axes.set_ylim([ymin,ymax])
+    
 numpy
 
     import numpy as np
