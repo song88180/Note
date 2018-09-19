@@ -10,3 +10,6 @@
 
 ## [Python](Python.md)
 * pickle
+* matplotlib
+* numpy
+* pandas
