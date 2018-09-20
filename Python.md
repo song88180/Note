@@ -24,7 +24,7 @@ pyplot
 import matplotlib as mpl
 import mpl.pyplot as plt
     
-## draw distribution
+## draw histgram distribution
 plt.hist(data, bins = )
 plt.show()
     
@@ -41,18 +41,25 @@ fig.savefig("dir/target.png")
 axes = plt.gca()
 axes.set_xlim([xmin,xmax])
 axes.set_ylim([None,ymax])
-    
 x1,x2,y1,y2 = plt.axis()
 plt.axis((x1,x2,25,250))
+# Or
+left,right = plt.xlim()
+bottom,top = plt.ylim()
+plt.xlim(left, right)
+plt.ylim(bottom, top)
     
 ## Stacked Bar Graph
 #plt.bar(x, height, width=0.8, bottom=None)
-
 ind = np.arange(N)
 p1 = plt.bar(ind, means1, width, color='#d62728', yerr=Std1)
 p2 = plt.bar(ind, means2, width, bottom=means1, yerr=Std2)
+
+## Stacked histogram
+plt.hist([x1, x2, x3, ...], bins = N, stack = True)
+plt.legend(('x1lable','x2lable','x3lable', ...))
+
 ```          
-    
     
 numpy
 
