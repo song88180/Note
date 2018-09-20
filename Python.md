@@ -14,7 +14,7 @@ pickle
         target = pickle.load(file_handle)
 
 
-matplotlib
+pyplot
     
     import matplotlib as mpl
     import mpl.pyplot as plt
@@ -39,6 +39,14 @@ matplotlib
     
     x1,x2,y1,y2 = plt.axis()
     plt.axis((x1,x2,25,250))
+    
+    ## Stacked Bar Graph
+    #plt.bar(x, height, width=0.8, bottom=None)
+    ind = np.arange(N)
+    p1 = plt.bar(ind, means1, width, color='#d62728', yerr=Std1)
+    p2 = plt.bar(ind, means2, width, bottom=means1, yerr=Std2)
+             
+    
     
 numpy
 
