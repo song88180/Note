@@ -83,3 +83,10 @@ pandas
 ```python    
 import pandas as pd
 ```    
+
+t test
+
+```python
+from scipy import stats
+stats.ttest_ind(a, b, axis=0, equal_var=True)
+```python
