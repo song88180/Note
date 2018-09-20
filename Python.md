@@ -57,19 +57,19 @@ p2 = plt.bar(ind, means2, width, bottom=means1, yerr=Std2)
 numpy
 
 ```python
-    import numpy as np
-    np.argmax(a, axis = )  # get the index of the maximum in an array
+import numpy as np
+np.argmax(a, axis = )  # get the index of the maximum in an array
     
-    import numpy.random as nrand 
-    nrand.permutation(int,List,range)   # return a List.
-    nrand.shuffle(List)   #change the List.
+import numpy.random as nrand 
+nrand.permutation(int,List,range)   # return a List.
+nrand.shuffle(List)   #change the List.
     
-    ## return index of value
-    itemindex = numpy.where(array==item)
+## return index of value
+itemindex = numpy.where(array==item)
 ```
 
 pandas
 
 ```python    
-    import pandas as pd
+import pandas as pd
 ```    
