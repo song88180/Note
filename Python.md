@@ -73,6 +73,9 @@ nrand.shuffle(List)   #change the List.
     
 ## return index of value
 itemindex = numpy.where(array==item)
+
+##Returns the indices of the maximum values along an axis.
+np.argmax(matrix, axis=1)
 ```
 
 pandas
