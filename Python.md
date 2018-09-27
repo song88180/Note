@@ -70,12 +70,15 @@ np.argmax(a, axis = )  # get the index of the maximum in an array
 import numpy.random as nrand 
 nrand.permutation(int,List,range)   # return a List.
 nrand.shuffle(List)   #change the List.
+nrand.choice(5, 3, replace = False)  ## This is equivalent to np.random.permutation(np.arange(5))[:3]
     
 ## return index of value
 itemindex = numpy.where(array==item)
 
 ##Returns the indices of the maximum values along an axis.
 np.argmax(matrix, axis=1)
+
+
 ```
 
 pandas
