@@ -78,6 +78,9 @@ itemindex = numpy.where(array==item)
 ##Returns the indices of the maximum values along an axis.
 np.argmax(matrix, axis=1)
 
+##calculate std
+np.std(a, axis=0)
+
 
 ```
 
@@ -92,4 +95,6 @@ t test
 ```python
 from scipy import stats
 stats.ttest_ind(a, b, axis=0, equal_var=True)
-```python
+```
+
+
