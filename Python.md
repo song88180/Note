@@ -97,4 +97,17 @@ from scipy import stats
 stats.ttest_ind(a, b, axis=0, equal_var=True)
 ```
 
+re
+https://docs.python.org/2/library/re.html
+```python
+import re
+#Split string by the occurrences of pattern.
+re.split(pattern, string, maxsplit=0, flags=0)  
 
+#Compile a regular expression pattern into a regular expression object, which can be used for matching using its match() and search() methods
+prog = re.compile(pattern)
+result = prog.match(string)
+
+re.match("c", "abcdef")    # No match
+re.search("c", "abcdef")   # Match
+```
