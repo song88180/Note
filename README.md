@@ -16,6 +16,9 @@
 ## [R](R.md)
 * sum by column or row
 
+## [matlab](matlab.md)
+* Find and replace substring (strrep)
+
 ## Dropbox
 * Upload file use linux command: https://github.com/andreafabrizi/Dropbox-Uploader
 * Selective Sync: https://www.dropbox.com/help/syncing-uploads/selective-sync-overview
