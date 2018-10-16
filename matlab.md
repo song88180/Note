@@ -1,3 +1,8 @@
+Run matlab in bash script:
+```bash
+matlab -nodisplay -nodesktop -r "run /path/to/script.m"
+```
+
 Replace substring:
 ```matlab
 newStr = strrep(str,old,new)
