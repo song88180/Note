@@ -88,6 +88,12 @@ pandas
 
 ```python    
 import pandas as pd
+
+## create a dictionary of two pandas Dataframe columns
+df = DataFrame(randint(0,10,10000).reshape(5000,2),columns=['A','B'])
+dict(zip(df.A,df.B)) # common
+Series(df.A.values,index=df.B).to_dict() . # faster
+
 ```    
 
 t test
@@ -111,3 +117,4 @@ result = prog.match(string)
 re.match("c", "abcdef")    # No match
 re.search("c", "abcdef")   # Match
 ```
+
