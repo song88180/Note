@@ -94,6 +94,10 @@ df = DataFrame(randint(0,10,10000).reshape(5000,2),columns=['A','B'])
 dict(zip(df.A,df.B)) # common
 Series(df.A.values,index=df.B).to_dict() . # faster
 
+## insert column into existed dataframe
+df['My new column'] = 'default value' # most common
+df.insert(0, 'new column', 'default value') # this one specifies the order
+
 ```    
 
 t test
