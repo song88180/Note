@@ -73,7 +73,7 @@ nrand.shuffle(List)   #change the List.
 nrand.choice(5, 3, replace = False)  ## This is equivalent to np.random.permutation(np.arange(5))[:3]
     
 ## return index of value
-itemindex = numpy.where(array==item)
+itemindex = numpy.where(array==item)[0]
 
 ##Returns the indices of the maximum values along an axis.
 np.argmax(matrix, axis=1)
