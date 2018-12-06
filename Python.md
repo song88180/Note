@@ -3,6 +3,8 @@
 myList = ','.join(myList) 
 # if elements are not string type
 myList = ','.join(map(str, myList))   # separate with comma
+
+dict.fromkeys([key1, key2, key3, key4]) # initialize a dict with keys from a list and empty value.
 ```
 
 pickle
