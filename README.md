@@ -12,6 +12,7 @@
 * matplotlib
 * numpy
 * pandas
+* conda
 
 ## [R](R.md)
 * sum by column or row
