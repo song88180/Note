@@ -124,3 +124,10 @@ re.match("c", "abcdef")    # No match
 re.search("c", "abcdef")   # Match
 ```
 
+conda
+```bash
+#export environment.yml
+conda info --envs # See all available conda environments
+source activate [myenv] # Activate the environment to export
+conda env export > environment.yml # export
+```
