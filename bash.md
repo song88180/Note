@@ -8,3 +8,9 @@ grep 'pattern1\|pattern2' filename
 ```bash
 for i in ls -1 path/to/dir; do
 ```
+
+# nice & renice
+```bash
+nice -n X command
+renice -n X -p PID
+```
