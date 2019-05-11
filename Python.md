@@ -100,6 +100,10 @@ Series(df.A.values,index=df.B).to_dict() . # faster
 df['My new column'] = 'default value' # most common
 df.insert(0, 'new column', 'default value') # this one specifies the order
 
+## To select rows whose column value is in list 
+years = [1952, 2007]
+df.year.isin(years)
+
 ```    
 
 t test
