@@ -61,6 +61,11 @@ p2 = plt.bar(ind, means2, width, bottom=means1, yerr=Std2)
 plt.hist([x1, x2, x3, ...], bins = N, stack = True)
 plt.legend(('x1lable','x2lable','x3lable', ...))
 
+## control figure size
+fig = plt.figure(figsize=(w,h))
+axes = fig.add_axes([0,0,1,1]) #  fig.add_axes([left,bottom,width,heigth]) in fractions of figure width and height
+plt.show()
+
 ```          
     
 numpy
