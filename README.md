@@ -21,6 +21,8 @@
 
 ## [R](R.md)
 * sum by column or row
+* Convert the values in a column into row names 
+* Convert the values in a row into column names 
 
 ## [matlab](matlab.md)
 * Run matlab in bash script
