@@ -14,3 +14,9 @@ for i in ls -1 path/to/dir; do
 nice -n X command
 renice -n X -p PID
 ```
+
+## awk
+```bash
+## tab delimited
+awk -F $'\t' '{print $1,$2,$3}'
+```
