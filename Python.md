@@ -62,10 +62,15 @@ plt.hist([x1, x2, x3, ...], bins = N, stack = True)
 plt.legend(('x1lable','x2lable','x3lable', ...))
 
 ## control figure size
-fig = plt.figure(figsize=(w,h))
-axes = fig.add_axes([0,0,1,1]) #  fig.add_axes([left,bottom,width,heigth]) in fractions of figure width and height
+plt.figure(figsize=(w,h))
 plt.show()
 
+## if any lable is  shown incompletely
+fig.tight_layout()
+
+## subplot
+fig, ax = plt.subplots()
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2)
 ```          
     
 numpy
