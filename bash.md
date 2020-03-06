@@ -20,3 +20,9 @@ renice -n X -p PID
 ## tab delimited
 awk -F $'\t' '{print $1,$2,$3}'
 ```
+
+## sort
+```bash
+## -t separator, -k column, -r reverse, -n numeric ranking
+sort -t, -k2,2 file
+```
