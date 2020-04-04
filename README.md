@@ -30,6 +30,9 @@
 * Get positions of a number in an array
 * Delete multiple column in an matrix
 
+## [conda](conda.md)
+* manage environment
+
 ## Dropbox
 * Upload file use linux command: https://github.com/andreafabrizi/Dropbox-Uploader
 * Selective Sync: https://www.dropbox.com/help/syncing-uploads/selective-sync-overview
