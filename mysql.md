@@ -2,7 +2,7 @@ Basic usage:
 ```bash
 mysql -host localhost -u root -p
 ```
-```mysql
+```sql
 CREATE DATABSE database_name;
 USE database_name;
 DROP DATABASE database_name;
