@@ -1,7 +1,5 @@
 Basic usage:
-```bash
-mysql -host localhost -u root -p
-```
+
 ```sql
 CREATE DATABSE database_name;
 USE database_name;
