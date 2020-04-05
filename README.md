@@ -30,6 +30,10 @@
 * Get positions of a number in an array
 * Delete multiple column in an matrix
 
+## [mysql](mysql.md)
+* basic usage
+* group by (summarize number of different values)
+
 ## [conda](conda.md)
 * manage environment
 
