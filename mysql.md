@@ -1,6 +1,6 @@
 Basic usage:
 
-```sql
+```mysql
 CREATE DATABSE database_name;
 USE database_name;
 DROP DATABASE database_name;
