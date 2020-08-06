@@ -26,3 +26,8 @@ awk -F $'\t' '{print $1,$2,$3}'
 ## -t separator, -k column, -r reverse, -n numeric ranking
 sort -t, -k2,2 file
 ```
+## make alias for cd
+```bash
+## Make alias for the path to a frequently used directory.
+alias cdHtml="cd /usr/share/nginx/html/"
+```
