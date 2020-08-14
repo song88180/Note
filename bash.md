@@ -38,4 +38,10 @@ du -ah $DIR | grep -v "/$" | sort -rh
 
 # Don't show directory
 find . -type f -printf "%s\t%p\n" | sort -n
+
+# Don't show directory, more readable
+find . -name "*.ipynb" -print0 | du -sh --files0-from=- 
+
+# Find the total size of certain files within a directory branch
+find . -type f -name '*.jpg' -exec du -ch {} + | grep total$
 ```
