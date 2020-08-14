@@ -31,3 +31,11 @@ sort -t, -k2,2 file
 ## Make alias for the path to a frequently used directory.
 alias cdHtml="cd /usr/share/nginx/html/"
 ```
+
+## sort files in a directory by size recursively
+```bash
+du -ah $DIR | grep -v "/$" | sort -rh
+
+# Don't show directory
+find . -type f -printf "%s\t%p\n" | sort -n
+```
