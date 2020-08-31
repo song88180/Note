@@ -37,6 +37,9 @@
 ## [conda](conda.md)
 * manage environment
 
+ ## [git](git.md)
+* show most recent change of a specific file
+
 ## Dropbox
 * Upload file use linux command: https://github.com/andreafabrizi/Dropbox-Uploader
 * Selective Sync: https://www.dropbox.com/help/syncing-uploads/selective-sync-overview
