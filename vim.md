@@ -25,3 +25,10 @@ If forget to sudo:
 ```vim
 w !sudo tee %
 ```
+
+Find all un-printable charactor:  
+https://stackoverflow.com/questions/3844311/how-do-i-replace-or-find-non-printable-characters-in-vim-regex
+```vim
+/[^[:print:]]  " find <85>, <99>, etc.
+/[[:cntrl:]]  " find ^F, ^S, etc.
+```
