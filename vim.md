@@ -26,9 +26,14 @@ If forget to sudo:
 w !sudo tee %
 ```
 
-Find all un-printable charactor:  
+Un-printable charactor:  
 https://stackoverflow.com/questions/3844311/how-do-i-replace-or-find-non-printable-characters-in-vim-regex
 ```vim
+"Find all un-printable charactor
 /[^[:print:]]  " find <85>, <99>, etc.
 /[[:cntrl:]]  " find ^F, ^S, etc.
+
+"Find a specific un-printable charactor
+/\%x99 " find <99>
+/ ctrl-V-S " find ^S, holding ctrl when press V and S. Ctrl-V lets you enter control characters.
 ```
