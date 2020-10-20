@@ -138,6 +138,18 @@ re.match("c", "abcdef")    # No match
 re.search("c", "abcdef")   # Match
 ```
 
+sympy
+```python
+# Taylor expansion symbolically 
+import sympy
+from sympy import *
+x0, x, dx = symbols("x0,x,delta_x")
+f = Function("f")
+FW = f(x).series(x, x0=x0, n=5)
+FW.subs(x,dx+x0)
+FW
+```
+
 conda
 ```bash
 #export environment.yml
