@@ -1,0 +1,11 @@
+SAIGE:
+  step1:
+    N_sample: 452557
+    N_model_SNPs: 358027
+    CPU time: ~50 hours
+
+Regenie:
+step1:
+    N_sample: 452557
+    N_model_SNPs: 358027
+    CPU time: ~35 hours
