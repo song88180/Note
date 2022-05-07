@@ -1,3 +1,9 @@
+BOLT-LMM:
+  actual time: 36 hour (64 threads)
+  CPU Utilized:  36-22:52:26
+  CPU Efficiency: 38.09% of 97-00:21:20 total CPU time
+  memory: 39.98 GB
+
 SAIGE:
   step1:
     N_sample: 452557
@@ -9,3 +15,9 @@ step1:
     N_sample: 452557
     N_model_SNPs: 358027
     CPU time: ~35 hours
+step2:
+    N_sample: 452557
+    N_SNPs: 9371426
+    actual time: ~ 18 hour (24 threads)
+    CPU time: ~365 hour
+    Max memory: 4.5 GB
