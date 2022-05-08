@@ -5,16 +5,32 @@ BOLT-LMM:
   memory: 39.98 GB
 
 SAIGE:
-  step1:
+  step1 (fiting null model):
     N_sample: 452557
     N_model_SNPs: 358027
     CPU time: ~50 hours
 
-Regenie:
-step1:
+fastGWA:
+  step1 (making GRM):
     N_sample: 452557
     N_model_SNPs: 358027
-    CPU time: ~35 hours
+    actual total time: 2 hour 45 min (splited into 200 jobs run in 200 nodes X 8 threads, SLURM)
+    actual time for each job: ~40 min
+    CPU Utilized per job: ~4 hour
+    CPU Efficiency per job: 67.93% of 5.5 total CPU time
+    total CPU Utilized: ~800 hour
+    total CPU time: ~1100 hour
+    Memory: ~8 GB each job
+
+Regenie:
+step1 (fitting null model):
+    N_sample: 452557
+    N_model_SNPs: 358027
+    actual time: 3.2 hours (8 threads, block size 1000)
+    CPU Utilized: 12:16:26
+    Total CPU time: 1-01:31:12
+    CPU Efficiency: 48.10%
+    memory: 14 GB
 step2:
     N_sample: 452557
     N_SNPs: 9371426
